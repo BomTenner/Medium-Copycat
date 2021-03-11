@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: block;
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-weight: lighter;
+  color: #494949;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  margin-bottom: 10px;
+  margin-top: 40px;
+  color: #A0A0A0;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/user/erondu/1600x900");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 150px;
+}
+
+.banner p {
+  font-size: 25px;
+}
+
+.banner a {
+  padding: 7px;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.banner a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+.conbanner {
+  margin: 20px;
+  line-height: 3;
+}
+
+.container {
+  margin: 50px auto;
+  width: 750px;
+}
+
+.container a {
+  color: black;
+  font-weight: bold;
+}
+
+.container a:hover {
+  color: orange;
+}
+
